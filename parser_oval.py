@@ -122,9 +122,7 @@ def definitions(root: ET.Element):
                                     objects_and_states_of_test.update({'state_items' + str(count_test): temp_dict})
                             count_test += 1
 
-                    criteria_criterion_dict.update({first_ch.attrib.get('operator') +
-                                                    str(start_operators): {'criterion': objects_and_states_of_test,
-                                                                           'next': modif_next_criteria}})
+                criteria_criterion_dict.update({first_ch.attrib.get('operator')+str(start_operators): {'criterion': objects_and_states_of_test,'next': modif_next_criteria}})
                 start_operators += 1
 
             patch_information = metadata.findall('*', namespaces=namespace)  # get information about patch
@@ -170,7 +168,8 @@ def definitions(root: ET.Element):
             with open('result.json', 'w') as f:
                 json.dump(generator, f, indent=3)
 
-            modified_metadata = {"patch": {"definition": {}, "metadata": {}}}
+            #modified_metadata = {"patch": {"definition": {}, "metadata": {}}}
+            modified_metadata.clear()
             criteria_criterion_dict.clear()
 
 

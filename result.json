@@ -160,10 +160,6 @@
       },
       "Patch #1": {
          "Information": {
-            "patch": {
-               "definition": {},
-               "metadata": {}
-            },
             "definition": {
                "class": "patch",
                "id": "oval:com.redhat.rhba:def:20192715",
@@ -232,6 +228,13 @@
                   "AND1"
                ]
             },
+            "AND1": {
+               "criterion": {},
+               "next": [
+                  "OR2",
+                  "OR3"
+               ]
+            },
             "OR2": {
                "criterion": {
                   "test_items0": {
@@ -281,6 +284,13 @@
                },
                "next": []
             },
+            "OR3": {
+               "criterion": {},
+               "next": [
+                  "AND4",
+                  "AND5"
+               ]
+            },
             "AND4": {
                "criterion": {
                   "test_items0": {
@@ -300,6 +310,108 @@
                },
                "next": [
                   "OR5"
+               ]
+            },
+            "OR5": {
+               "criterion": {},
+               "next": [
+                  "AND6",
+                  "AND7",
+                  "AND8",
+                  "AND9",
+                  "AND10",
+                  "AND11",
+                  "AND12",
+                  "AND13",
+                  "AND14",
+                  "AND15",
+                  "AND16",
+                  "AND17",
+                  "AND18",
+                  "AND19",
+                  "AND20",
+                  "AND21",
+                  "AND22",
+                  "AND23",
+                  "AND24",
+                  "AND25",
+                  "AND26",
+                  "AND27",
+                  "AND28",
+                  "AND29",
+                  "AND30",
+                  "AND31",
+                  "AND32",
+                  "AND33",
+                  "AND34",
+                  "AND35",
+                  "AND36",
+                  "AND37",
+                  "AND38",
+                  "AND39",
+                  "AND40",
+                  "AND41",
+                  "AND42",
+                  "AND43",
+                  "AND44",
+                  "AND45",
+                  "AND46",
+                  "AND47",
+                  "AND48",
+                  "AND49",
+                  "AND50",
+                  "AND51",
+                  "AND52",
+                  "AND53",
+                  "AND54",
+                  "AND55",
+                  "AND56",
+                  "AND57",
+                  "AND58",
+                  "AND59",
+                  "AND60",
+                  "AND61",
+                  "AND62",
+                  "AND63",
+                  "AND64",
+                  "AND65",
+                  "AND66",
+                  "AND67",
+                  "AND68",
+                  "AND69",
+                  "AND70",
+                  "AND71",
+                  "AND72",
+                  "AND73",
+                  "AND74",
+                  "AND75",
+                  "AND76",
+                  "AND77",
+                  "AND78",
+                  "AND79",
+                  "AND80",
+                  "AND81",
+                  "AND82",
+                  "AND83",
+                  "AND84",
+                  "AND85",
+                  "AND86",
+                  "AND87",
+                  "AND88",
+                  "AND89",
+                  "AND90",
+                  "AND91",
+                  "AND92",
+                  "AND93",
+                  "AND94",
+                  "AND95",
+                  "AND96",
+                  "AND97",
+                  "AND98",
+                  "AND99",
+                  "AND100",
+                  "AND101",
+                  "AND102"
                ]
             },
             "AND6": {
@@ -3039,6 +3151,60 @@
                   "OR104"
                ]
             },
+            "OR104": {
+               "criterion": {},
+               "next": [
+                  "AND105",
+                  "AND106",
+                  "AND107",
+                  "AND108",
+                  "AND109",
+                  "AND110",
+                  "AND111",
+                  "AND112",
+                  "AND113",
+                  "AND114",
+                  "AND115",
+                  "AND116",
+                  "AND117",
+                  "AND118",
+                  "AND119",
+                  "AND120",
+                  "AND121",
+                  "AND122",
+                  "AND123",
+                  "AND124",
+                  "AND125",
+                  "AND126",
+                  "AND127",
+                  "AND128",
+                  "AND129",
+                  "AND130",
+                  "AND131",
+                  "AND132",
+                  "AND133",
+                  "AND134",
+                  "AND135",
+                  "AND136",
+                  "AND137",
+                  "AND138",
+                  "AND139",
+                  "AND140",
+                  "AND141",
+                  "AND142",
+                  "AND143",
+                  "AND144",
+                  "AND145",
+                  "AND146",
+                  "AND147",
+                  "AND148",
+                  "AND149",
+                  "AND150",
+                  "AND151",
+                  "AND152",
+                  "AND153"
+               ]
+            },
             "AND105": {
                "criterion": {
                   "test_items0": {
@@ -4415,10 +4581,6 @@
       },
       "Patch #2": {
          "Information": {
-            "patch": {
-               "definition": {},
-               "metadata": {}
-            },
             "definition": {
                "class": "patch",
                "id": "oval:com.redhat.rhba:def:20193384",
@@ -4515,6 +4677,13 @@
                   "AND1"
                ]
             },
+            "AND1": {
+               "criterion": {},
+               "next": [
+                  "OR2",
+                  "OR3"
+               ]
+            },
             "OR2": {
                "criterion": {
                   "test_items0": {
@@ -4564,6 +4733,12 @@
                },
                "next": []
             },
+            "OR3": {
+               "criterion": {},
+               "next": [
+                  "AND4"
+               ]
+            },
             "AND4": {
                "criterion": {
                   "test_items0": {
@@ -4583,6 +4758,43 @@
                },
                "next": [
                   "OR5"
+               ]
+            },
+            "OR5": {
+               "criterion": {},
+               "next": [
+                  "AND6",
+                  "AND7",
+                  "AND8",
+                  "AND9",
+                  "AND10",
+                  "AND11",
+                  "AND12",
+                  "AND13",
+                  "AND14",
+                  "AND15",
+                  "AND16",
+                  "AND17",
+                  "AND18",
+                  "AND19",
+                  "AND20",
+                  "AND21",
+                  "AND22",
+                  "AND23",
+                  "AND24",
+                  "AND25",
+                  "AND26",
+                  "AND27",
+                  "AND28",
+                  "AND29",
+                  "AND30",
+                  "AND31",
+                  "AND32",
+                  "AND33",
+                  "AND34",
+                  "AND35",
+                  "AND36",
+                  "AND37"
                ]
             },
             "AND6": {
